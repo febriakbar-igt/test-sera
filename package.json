@@ -1,0 +1,47 @@
+{
+  "name": "test_login_sera",
+  "version": "1.0.0",
+  "description": "test online create login and register page",
+  "main": "index.js",
+  "author": "Febri Tri Akbar",
+  "jest": {
+    "verbose": true
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest --config ./jest.config.js",
+    "test:update": "jest -u --config ./jest.config.js",
+    "test:watch": "jest --config ./jest.config.js --watch",
+    "test:coverage": "jest --config ./jest.config.js --coverage --colors"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bootstrap": "^4.5.3",
+    "firebase": "^8.2.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "js-cookie": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.2",
+    "next": "^9.3.2",
+    "next-pwa": "^5.0.2",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.4.0",
+    "react-bootstrap-icons": "^1.2.2",
+    "react-dom": "^16.12.0",
+    "react-test-renderer": "^17.0.1",
+    "swr": "^0.1.16",
+    "unfetch": "^4.1.0",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^26.6.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "jest": "^26.6.3"
+  }
+}
